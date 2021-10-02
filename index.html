@@ -4,9 +4,43 @@
         <meta charset="UTF-8">
         
         <title>Moja pierwsza strona (na kółku)</title>
+
+        <style>
+            
+            body {
+                background-color: aquamarine;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+             h1 {
+                 font-size: 48pt;
+
+                 background-color: blueviolet;
+                 box-shadow: 0 0 10px 10px cornflowerblue;
+             }
+
+             img {
+                 margin-top: 30px;
+                 box-shadow: 10px 10px blueviolet ;
+                 transition-duration: 0.2;
+
+                 cursor: crosshair;
+             }
+
+             img:hover {
+                 opacity: 0.5;
+                 transition-duration: 0.2;
+             }
+
+             #tytuł {
+                 font-family: "monospace";
+             }
+             
+
+        </style>
     </head>
     <body>
-         <h1>Hello, world!</h1>
+         <h1 id="tytuł">Hello, world!</h1>
 
          <p>Kółko programowania</p>
 
@@ -53,4 +87,3 @@
     </body>
 
  </html>
-
